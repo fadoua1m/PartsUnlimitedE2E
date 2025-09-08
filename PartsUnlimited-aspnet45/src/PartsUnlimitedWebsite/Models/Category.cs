@@ -6,6 +6,8 @@ namespace PartsUnlimited.Models
     public class Category
     {
         public int CategoryId { get; set; }
+// Added new comment to Category
+// Added second comment to Category
 
         [Required]
         public string Name { get; set; }
